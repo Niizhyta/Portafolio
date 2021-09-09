@@ -2276,6 +2276,7 @@ label {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  
 }
 
 .main-nav a:focus {
@@ -3106,7 +3107,7 @@ label {
 }
 
 .footer a:hover {
-  color: #2f49d1;
+  color: #d12f52;
   border-color: #2f49d1;
 }
 
@@ -3321,7 +3322,7 @@ label {
 }
 
 .darkmode .sidebar {
-  background-color: #161624 !important;
+  background-color: #241618 !important;
 }
 
 .darkmode .dropdown {
@@ -3352,7 +3353,7 @@ label {
 }
 
 .darkmode .stat-cards-item {
-  background-color: #222235;
+  background-color: #352228;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
