@@ -3,6 +3,23 @@
 /* Document
    ========================================================================== */
 
+   .logo-mini{
+    height:100%;
+    width: 100%;
+  }
+  .tamaño-pequeño{
+    height: 60%;
+    width: 60%;
+  }
+  .fondo-rojo{
+    background-color: #FF395B;
+  }
+  .texto-color{
+    background-color: rgb(255, 255, 255);
+  }
+  .fondo-naranjo{
+    background-color: #F29D39;
+  }
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -3192,6 +3209,48 @@ label {
   color: #d6d7e3;
 }
 
+.form-select {
+  border-radius: 8px;
+  border-width: 0;
+  margin-bottom: 15px;
+  padding: 5px 16px;
+  height: 44px;
+  background: #eff0f6;
+}
+.form-select::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::-moz-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
 .form-checkbox {
   margin-right: 12px;
 }
