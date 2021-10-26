@@ -3,6 +3,23 @@
 /* Document
    ========================================================================== */
 
+   .logo-mini{
+    height:100%;
+    width: 100%;
+  }
+  .tamaño-pequeño{
+    height: 60%;
+    width: 60%;
+  }
+  .fondo-rojo{
+    background-color: #FF395B;
+  }
+  .texto-color{
+    background-color: rgb(255, 255, 255);
+  }
+  .fondo-naranjo{
+    background-color: #F29D39;
+  }
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
@@ -20,6 +37,11 @@ html {
 /* Sections
    ========================================================================== */
 
+/* mi sección ♥*/
+
+
+
+/*/
 /**
  * Remove the margin in all browsers.
  */
@@ -1862,9 +1884,9 @@ label {
   padding: 5px 16px;
 }
 
-.users {
-  /* Users Table */
-}
+/* .users {
+   Users Table 
+} */
 
 .users-table table {
   width: 100%;
@@ -2276,6 +2298,7 @@ label {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  
 }
 
 .main-nav a:focus {
@@ -3106,7 +3129,7 @@ label {
 }
 
 .footer a:hover {
-  color: #2f49d1;
+  color: #d12f52;
   border-color: #2f49d1;
 }
 
@@ -3186,6 +3209,48 @@ label {
   color: #d6d7e3;
 }
 
+.form-select {
+  border-radius: 8px;
+  border-width: 0;
+  margin-bottom: 15px;
+  padding: 5px 16px;
+  height: 44px;
+  background: #eff0f6;
+}
+.form-select::-webkit-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::-moz-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select:-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::-ms-input-placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
+
+.form-select::placeholder {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.43;
+  color: #d6d7e3;
+}
 .form-checkbox {
   margin-right: 12px;
 }
@@ -3321,7 +3386,7 @@ label {
 }
 
 .darkmode .sidebar {
-  background-color: #161624 !important;
+  background-color: #241618 !important;
 }
 
 .darkmode .dropdown {
@@ -3352,7 +3417,7 @@ label {
 }
 
 .darkmode .stat-cards-item {
-  background-color: #222235;
+  background-color: #352228;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -4302,3 +4367,6 @@ label {
     flex-direction: column;
   }
 }
+
+
+/*RULETA*/
